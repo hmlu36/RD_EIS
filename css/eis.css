@@ -1,0 +1,114 @@
+BODY {
+	FONT-SIZE: 9pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 9pt
+}
+TD.fascia {
+	FONT-SIZE: 14pt; FONT-FAMILY: "新細明體"; FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: center
+}
+TD.fascia1 {
+	FONT-SIZE: 14pt; FONT-FAMILY: "新細明體"; FONT-WEIGHT: bold; COLOR: black; FONT-STYLE: italic; TEXT-ALIGN: center
+}
+TD.fascia2 {
+	FONT-SIZE: 14pt; FONT-FAMILY: "新細明體"; FONT-WEIGHT: bold; COLOR: white; FONT-STYLE: italic; TEXT-ALIGN: center
+}
+TD.fascia3 {
+	FONT-SIZE: 12pt; FONT-FAMILY: "新細明體"; FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: center
+}
+TD.fascia4 {
+	FONT-SIZE: 18pt; FONT-FAMILY: "新細明體"; FONT-WEIGHT: bold; COLOR: white; TEXT-ALIGN: center
+}
+TABLE.param1 {
+	FONT-SIZE: 9pt; BORDER-TOP: #fffce3 solid; BORDER-RIGHT: #fffce3 solid; BORDER-BOTTOM: #fffce3 solid; FONT-WEIGHT: normal; BORDER-LEFT: #fffce3 solid; LINE-HEIGHT: 15px; BACKGROUND-COLOR: #fffff2
+}
+TD.param11 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; WIDTH: 9%; BORDER-BOTTOM: #ffffff 1pt; COLOR: white; PADDING-BOTTOM: 1px; FONT-STYLE: normal; TEXT-ALIGN: center; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; LINE-HEIGHT: 16px; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #999999
+}
+TD.param1 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; WIDTH: 7%; BORDER-BOTTOM: #ffffff 1pt; COLOR: white; PADDING-BOTTOM: 1px; FONT-STYLE: normal; TEXT-ALIGN: center; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; LINE-HEIGHT: 16px; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #999999
+}
+TD.param12 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; BORDER-BOTTOM: #ffffff 1pt; COLOR: white; PADDING-BOTTOM: 1px; FONT-STYLE: normal; TEXT-ALIGN: center; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; LINE-HEIGHT: 16px; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #999999
+}
+TD.param2 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; BORDER-BOTTOM: #ffffff 1pt; COLOR: #000000; PADDING-BOTTOM: 0px; TEXT-ALIGN: right; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #ffffff 1pt; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #e6e6e6
+}
+TD.param3 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; BORDER-BOTTOM: #ffffff 1pt; COLOR: #000000; PADDING-BOTTOM: 1px; TEXT-ALIGN: right; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #ffffff
+}
+TD.param22 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; BORDER-BOTTOM: #ffffff 1pt; COLOR: #000000; PADDING-BOTTOM: 1px; TEXT-ALIGN: center; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #e6e6e6
+}
+TD.param33 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; BORDER-BOTTOM: #ffffff 1pt; COLOR: #000000; PADDING-BOTTOM: 1px; TEXT-ALIGN: center; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #ffffff
+}
+TD.param222 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; BORDER-BOTTOM: #ffffff 1pt; COLOR: #000000; PADDING-BOTTOM: 1px; TEXT-ALIGN: right; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #cddce2
+}
+TD.param333 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; BORDER-BOTTOM: #ffffff 1pt; COLOR: #000000; PADDING-BOTTOM: 1px; TEXT-ALIGN: right; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #cbd8d5
+}
+TD.param444 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; BORDER-BOTTOM: #ffffff 1pt; COLOR: #000000; PADDING-BOTTOM: 1px; TEXT-ALIGN: center; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #cccccc
+}
+TD.param44 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; WIDTH: 9%; BORDER-BOTTOM: #ffffff 1pt; COLOR: #000000; PADDING-BOTTOM: 1px; TEXT-ALIGN: center; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #cccccc
+}
+TD.param4 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; WIDTH: 7%; BORDER-BOTTOM: #ffffff 1pt; COLOR: #000000; PADDING-BOTTOM: 1px; TEXT-ALIGN: center; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #cccccc
+}
+TD.param5 {
+	FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1pt; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; BORDER-RIGHT: #ffffff 1pt; BORDER-BOTTOM: #ffffff 1pt; COLOR: #993333; PADDING-BOTTOM: 1px; TEXT-ALIGN: right; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ffffff 1pt; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #f3f3ff
+}
+A {
+	CURSOR: help; TEXT-DECORATION: none; COLOR: #0000ff
+}
+A.fascia3 {
+	FONT-SIZE: 12px; CURSOR: help; TEXT-DECORATION: none; FONT-FAMILY: "新細明體"; FONT-WEIGHT: normal; COLOR: black
+}
+A.fascia4 {
+	FONT-SIZE: 18pt; CURSOR: help; TEXT-DECORATION: none; FONT-FAMILY: "新細明體"; FONT-WEIGHT: bold; COLOR: white
+}
+A:hover {
+	TEXT-DECORATION: underline; COLOR: #ff0000
+}
+A.fascia3:hover {
+	TEXT-DECORATION: underline; COLOR: blue
+}
+A.fascia4:hover {
+	TEXT-DECORATION: underline; COLOR: blue
+}
+INPUT.buttonface {
+	FONT-SIZE: 9pt; BORDER-TOP: black 1px solid; HEIGHT: 18px; BORDER-RIGHT: black 1px solid; FONT-VARIANT: normal; BACKGROUND: #ff9900; BORDER-BOTTOM: black 1px solid; FONT-WEIGHT: normal; COLOR: #ffffff; FONT-STYLE: normal; BORDER-LEFT: black 1px solid; LINE-HEIGHT: normal
+}
+INPUT.smallInput {
+	FONT-SIZE: 9pt; BORDER-TOP: black 1px solid; HEIGHT: 18px; BORDER-RIGHT: black 1px solid; FONT-VARIANT: normal; BORDER-BOTTOM: black 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: black 1px solid; LINE-HEIGHT: normal
+}
+.PageTitleName {
+	FONT-SIZE: 24px; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: bottom; FONT-WEIGHT: bold; COLOR: #3b4a8d
+}
+.MarTitleName {
+	FONT-SIZE: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: bottom; COLOR: #ff0000
+}
+SPAN.fascia1 {
+	FONT-SIZE: 11pt; FONT-FAMILY: "新細明體"; FONT-WEIGHT: normal; COLOR: black; TEXT-ALIGN: center
+}
+SPAN.fascia2 {
+	FONT-SIZE: 11pt; FONT-FAMILY: "新細明體"; FONT-WEIGHT: normal; COLOR: white; TEXT-ALIGN: center
+}
+SPAN.fascia3 {
+	FONT-SIZE: 11pt; FONT-FAMILY: "新細明體"; FONT-WEIGHT: normal; COLOR: black; TEXT-ALIGN: center
+}
+SPAN.fascia4 {
+	FONT-SIZE: 11pt; FONT-FAMILY: "新細明體"; FONT-WEIGHT: normal; COLOR: white; TEXT-ALIGN: center
+}
+.navtext {
+	FONT-SIZE: 16pt; BORDER-TOP: #999999 1px outset; BORDER-RIGHT: #999999 1px outset; FONT-VARIANT: normal; WIDTH: 250px; BORDER-BOTTOM: #999999 1px outset; FONT-WEIGHT: normal; COLOR: red; FONT-STYLE: normal; TEXT-ALIGN: left; BORDER-LEFT: #999999 1px outset; LINE-HEIGHT: normal; BACKGROUND-COLOR: #f7ffe1; layer-background-color: #000000
+}
+.ybb {
+	FONT-SIZE: 14px; FONT-FAMILY: "新細明體"; LINE-HEIGHT: 30px
+}
+.w_button {
+	FONT-SIZE: 9pt; TEXT-DECORATION: none; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-BOTTOM: #ffffff 1px solid; COLOR: #002e59; PADDING-BOTTOM: 0px; PADDING-TOP: 2px; PADDING-LEFT: 8px; BORDER-LEFT: #ffffff 1px solid; DISPLAY: inline-block; LINE-HEIGHT: 14px; PADDING-RIGHT: 8px; BACKGROUND-COLOR: #ffffff
+}
