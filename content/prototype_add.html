@@ -24,19 +24,17 @@
         </tr>
 
         <tr>
-            <td bgColor=#999999>
-                基
-                <br>本
-                <br>資
-                <br>料</td>
+            <td bgColor=#999999 width="28" align="center">
+                基本資料
+            </td>
             <td valign=top align=left>
                 <table cellSpacing=1 borderColorDark=#ffffff cellPadding=5 width="100%" bgColor=#000000 borderColorLight=#000000 border=0>
                     <tbody>
                         <tr bgColor=#ffffff>
-                            <td height=40 width="10%">
+                            <td width="15%">
                                 <font color=#ff0000>*</font>提案單位
                             </td>
-                            <td width="13%">
+                            <td width="15%">
                                 <select name=e_tad_dept> 
 									<option selected value="">請選擇</option> 
 									<option value=商務>商務</option> 
@@ -47,11 +45,11 @@
                             <td width="15%">
                                 <font color=#ff0000>*</font>提案人
                             </td>
-                            <td width="10%"><input maxLength=18 size=10 name=e_tad_per></td>
-                            <td width="10%">
+                            <td width="15%"><input maxLength=18 size=10 name=e_tad_per></td>
+                            <td width="15%">
                                 <font color=#ff0000>*</font>提案日期
                             </td>
-                            <td width="10%"><input size=10 value=2017/5/16 name=e_tad_tdate></td>
+                            <td width="15%"><input size=10 value=2017/5/16 name=e_tad_tdate></td>
                         </tr>
                         <tr bgColor=#ffffff>
                             <td>
@@ -155,7 +153,170 @@
                         </tr>
                         <tr bgColor=#ffffff>
                             <td>其他</td>
-                            <td colspan="4"><textarea rows=4 cols=50 name=e_tad_scgz></textarea></td>
+                            <td colspan="2"><textarea rows=4 cols=35 name=e_tad_scgz></textarea></td>
+                            <td>
+                                <font color=#ff0000>*</font>idea來源</td>
+                            <td>
+                                <select> 
+									<option selected value="">請選擇</option> 
+									<option value="客戶">客戶</option> 
+									<option value="PA">PA</option> 
+									<option value="機構">機構</option> 
+								</select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td bgColor=#999999 width=29 align="center">
+                提案需求
+            </td>
+            <td vAlign=top width=748 align=left>
+                <table cellSpacing=1 borderColorDark=#000000 cellPadding=5 width="100%" bgColor=#000000 borderColorLight=#ffffff border=0>
+                    <tbody>
+                        <tr bgColor=#ffffff>
+                            <td width="16%">
+                                <font color=#ff0000>*</font>提案目的
+                            </td>
+                            <td bgColor=#ffffff width="84%">
+                                <textarea rows=4 cols=60 name=e_tad_md></textarea>
+                            </td>
+                        </tr>
+                        <tr bgColor=#ffffff>
+                            <td>
+                                <font color=#ff0000>*</font>產品概念
+                            </td>
+                            <td bgColor=#ffffff vAlign=top align=left>
+                                <textarea rows=4 cols=60 name=e_tad_con></textarea>
+                            </td>
+                        </tr>
+                        <tr bgColor=#ffffff>
+                            <td>
+                                <font color=#ff0000>*</font>功能規格
+                            </td>
+                            <td bgColor=#ffffff vAlign=top align=left>
+                                <textarea rows=6 cols=60 name=e_tad_fun></textarea>
+                            </td>
+                        </tr>
+                        <tr bgColor=#ffffff>
+                            <td>
+                                <font color=#ff0000>*</font>需協助事項
+                            </td>
+                            <td bgColor=#ffffff vAlign=top align=left>
+                                <input type=checkbox value=PA name=tad_assist_dept>PA</input>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type=checkbox value=MD name=tad_assist_dept>MD</input>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type=checkbox value=電子 name=tad_assist_dept>電子</input>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type=checkbox value=其他 name=tad_assist_dept>其他</input>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <BR>說明
+                                <textarea rows=3 cols=60 name=tad_assist_memo></textarea>
+                            </td>
+                        </tr>
+                        <tr bgColor=#ffffff>
+                            <td>
+                                <font color=#ff0000>*</font>預估費用
+                            </td>
+                            <td bgColor=#ffffff vAlign=top align=left>
+                                <input name=tad_forecast_fee></input>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td bgColor=#999999 width=29 align="center">
+                其他資訊
+            </td>
+
+            <td vAlign=top width=748 align=left>
+                <table cellSpacing=1 borderColorDark=#000000 cellPadding=5 width="100%" bgColor=#000000 borderColorLight=#ffffff border=0>
+                    <tbody>
+                        <tr bgColor=#ffffff>
+                            <td width="15%" rowspan="2">
+                                <font color=#ff0000>*</font>燈號
+                            </td>
+                            <td width="15%" rowspan="2">
+                                <input type="radio"><img src="photo/green_dot.JPG">
+                                <input type="radio"><img src="photo/yellow_dot.JPG">
+                            </td>
+                            <td width="15%" rowspan="2">
+                                <font color=#ff0000>*</font>創新等級
+                            </td>
+                            <td width="15%" rowspan="2">
+                                <select> 
+									<option selected value="">請選擇</option> 
+									<option value="A">A</option> 
+									<option value="B">B</option> 
+									<option value="C">C</option> 
+								</select>
+                            </td>
+                            <td width="15%">
+                                <font color=#ff0000>*</font>機構工程師
+                            </td>
+                            <td width="15%">
+                                <select> 
+									<option selected value="">請選擇</option> 
+									<option value="">劉XX</option> 
+									<option value="">王XX</option> 
+									<option value="">林OO</option> 
+								</select>
+                            </td>
+                        </tr>
+                        <tr bgColor=#ffffff>
+                            <td>
+                                <font color=#ff0000>*</font>Team member
+                            </td>
+                            <td>
+                                <select> 
+									<option selected value="">請選擇</option> 
+									<option value="">王XXX</option> 
+									<option value="">方OO</option> 
+									<option value="">魏XX</option> 
+								</select>
+                            </td>
+                        </tr>
+                        <tr bgColor=#ffffff>
+                            <td>
+                                <font color=#ff0000>*</font>機種/品名
+                            </td>
+                            <td>
+                                <select size=1 name=dt_line> 
+									<option selected value="">請選擇</option>
+									<option value=06>X001/AAA 清洗磨刀組</option>
+									<option value=10>X002/BBB 電子賽風壺</option>
+									<option value=07>X003/CCC XXXXX</option>
+									<option value=11>X004/DDD A&B</option>
+									<option value=05>X005/EEE 透明注水機</option>
+								</select>
+                            </td>
+                            <td>
+                                圖片
+                                <form action="#">
+                                    <input type="file" name="pic" accept="image/*">
+                                    <input type="submit" value="查看圖片">
+                                </form>
+                            </td>
+                            <td>
+                                <font color=#ff0000>*</font>目前進度
+                            </td>
+                            <td colspan="2">
+                                <label><input type="checkbox" id=""  checked/>開案單</label><br>
+                                <label><input type="checkbox" id=""  checked/>開案成本機構</label><br>
+                                <label><input type="checkbox" id=""  checked/>開案成本結構會簽表</label><br>
+                                <label><input type="checkbox" id=""  checked/>開案成本表</label><br>
+                                <label><input type="checkbox" id=""  />產品working評審會簽表</label><br>
+                                <label><input type="checkbox" id=""  />開案模具/成型供應商選定評估表(八大部件)</label><br>
+                                <label><input type="checkbox" id=""  />award letter</label><br>
+                                <label><input type="checkbox" id=""  />發包模具清單</label><br>
+                                <label><input type="checkbox" id=""  />發包成本表</label><br>
+                                <label><input type="checkbox" id=""  />發包成本結構</label><br>
+                                <label><input type="checkbox" id=""  />發包成本結構會簽表</label>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
