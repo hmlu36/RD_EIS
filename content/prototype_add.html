@@ -23,7 +23,6 @@
             </td>
         </tr>
 
-
         <tr>
             <td bgColor=#999999>
                 基
@@ -53,9 +52,13 @@
                                 <font color=#ff0000>*</font>提案日期
                             </td>
                             <td width="10%"><input size=10 value=2017/5/16 name=e_tad_tdate></td>
-                            <td width="30%" colSpan="2">
+                        </tr>
+                        <tr bgColor=#ffffff>
+                            <td>
                                 <font color=#ff0000>*</font>
                                 產品線
+                            </td>
+                            <td>
                                 <select> 
 									<option selected value="">請選擇</option> 
 									<option value=06>咖啡壼</option>
@@ -68,7 +71,9 @@
 									<option value=27>Griddle</option>
 									<option value=28>Panini</option>
 								</select>
-                                <br> &nbsp;&nbsp;&nbsp;機種/品名
+                            </td>
+                            <td>機種/品名</td>
+                            <td>
                                 <select size="1"> 
 									<option selected value="">請選擇</option>
 									<option value=06>X9287/可拆卸式清洗磨刀組</option>
@@ -78,6 +83,8 @@
 									<option value=05>X3854/透明注水機</option>
 								</select>
                             </td>
+                            <td>臨時型號</td>
+                            <td>BOM組提供</td>
                         </tr>
                         <tr bgColor=#ffffff>
                             <td>
@@ -106,8 +113,7 @@
 									<option value=延伸/轉規格案>延伸/轉規格案</option>
 								</select>
                             </td>
-                            <td>臨時型號</td>
-                            <td>BOM組提供</td>
+
                         </tr>
 
                         <tr bgColor=#ffffff>
@@ -116,20 +122,25 @@
                             </td>
                             <td>外觀轉移日</td>
                             <td><input size=10 name=id_zy_date></td>
-                            <td rowspan="2">
+                            <td>
                                 <font color=#ff0000>*</font>重要級別
                             </td>
-                            <td rowspan="2">
+                            <td colspan="2">
                                 <select name=tad_levelx> 
 									<option selected value=A客戶付費or訂單明確>A客戶付費or訂單明確</option> 
 									<option value=B有客戶需求,尚無訂單>B有客戶需求,尚無訂單</option> 
 									<option value=C無客戶需求,推案中>C無客戶需求,推案中</option>
 								</select>
                             </td>
-                            <td rowspan="2">
+
+                        </tr>
+                        <tr bgColor=#ffffff>
+                            <td>量產日</td>
+                            <td><input size=10 name=id_lc_date></td>
+                            <td>
                                 <font color=#ff0000>*</font>屬性
                             </td>
-                            <td colSpan=2 rowspan="2">
+                            <td colspan="2">
                                 <select name=tad_property> 
 									<option selected value="">請選擇</option> 
 									<option value=OBM(SWIFT)>OBM(SWIFT)</option> 
@@ -143,23 +154,8 @@
                             </td>
                         </tr>
                         <tr bgColor=#ffffff>
-                            <td>量產日</td>
-                            <td><input size=10 name=id_lc_date></td>
-                        </tr>
-                        <tr bgColor=#ffffff>
                             <td>其他</td>
-                            <td colspan="4"><textarea rows=4 cols=60 name=e_tad_scgz></textarea></td>
-                            <td>
-                                <font color=#ff0000>*</font>idea來源
-                            </td>
-                            <td colSpan=2>
-                                <select name=tad_idea> 
-									<option selected value="">請選擇</option> 
-									<option value=客戶>客戶</option> 
-									<option value=PA>PA</option> 
-									<option value=機構>機構</option>
-								</select>
-                            </td>
+                            <td colspan="4"><textarea rows=4 cols=50 name=e_tad_scgz></textarea></td>
                         </tr>
                     </tbody>
                 </table>
